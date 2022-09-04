@@ -1,5 +1,5 @@
 require('dotenv').config();
-ApiKey = process.env.ApiKey;
+ApiKey =process.env.ApiKey;
 
 onLoad()
 getJoke()
