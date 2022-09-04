@@ -2,7 +2,7 @@
 
 require('dotenv').config();
 
-ApiKey = '23d7764695msh0166b665bb35ba3p1515e4jsncc6ae020f670';
+var ApiKey = process.env.ApiKey;
 onLoad();
 getJoke();
 getChuckNorrisJoke();
