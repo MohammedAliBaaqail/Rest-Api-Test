@@ -88,9 +88,6 @@ function getCovid19Statistics() {
           fetch('https://covid-193.p.rapidapi.com/statistics', options).then(function (response) {
             return response.json();
           }).then(function (response) {
-            console.log("COVID 19 API object:");
-            console.log(response);
-            console.log("\n");
             response.response.forEach(function (res) {
               var option = document.createElement('option');
               option.innerHTML = res.country;

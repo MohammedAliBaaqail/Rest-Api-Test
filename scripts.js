@@ -63,9 +63,7 @@ async function getChuckNorrisJoke(){
         fetch('https://covid-193.p.rapidapi.com/statistics', options)
             .then(response => response.json())
             .then(response => {
-                console.log("COVID 19 API object:");
-        console.log(response);
-        console.log("\n");
+
                 response.response.forEach(res => {
                     const option = document.createElement('option');
                     option.innerHTML = res.country;
