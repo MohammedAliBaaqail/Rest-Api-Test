@@ -1,8 +1,7 @@
 "use strict";
 
-require('dotenv').config();
-
-var ApiKey = process.env.ApiKey;
+// require('dotenv').config();
+var ApiKey = '23d7764695msh0166b665bb35ba3p1515e4jsncc6ae020f670';
 onLoad();
 getJoke();
 getChuckNorrisJoke();
